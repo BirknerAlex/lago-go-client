@@ -45,7 +45,7 @@ type PlanInput struct {
 	Code              string            `json:"code,omitempty"`
 	Interval          PlanInterval      `json:"interval,omitempty"`
 	Description       string            `json:"description,omitempty"`
-	AmountCents       int               `json:"amount_cents,omitempty"`
+	AmountCents       int               `json:"amount_cents"`
 	AmountCurrency    Currency          `json:"amount_currency,omitempty"`
 	PayInAdvance      bool              `json:"pay_in_advance,omitempty"`
 	BillChargeMonthly bool              `json:"bill_charge_monthly,omitempty"`
